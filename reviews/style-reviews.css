@@ -1,0 +1,60 @@
+body{
+  margin: 0px;
+  background-color: #707070;
+  background-size: 1920px 1080px;
+}
+.container {   width: 75%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px; /* скругление углов блока */
+    padding: 16px; /* внутренние поля */
+    margin: 16px auto; /* внешние отступы */
+  }
+
+  .container img {
+    float: left; /* обтекание слева */
+    margin-right: 20px; /* пространство между аватаркой и абзацем */
+    border-radius: 50%; /* скругляет аватарку */
+    width: 90px;
+  }
+  
+  .container span {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+
+header{
+    background-color: #383833;
+    min-width: 600px;
+    height: 100px;
+}
+header ul{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 105%;
+    right: 10%;
+}
+header ul li{
+    display: block;
+    padding: 40px;
+}
+header ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    color: orange;
+}
+
+header div{
+  background-image: url('logo.png');
+  background-size: 80px 80px;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 15%;
+  top: 10%;
+}

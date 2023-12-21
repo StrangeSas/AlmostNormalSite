@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #707070;
+    background-size: 1920px 1080px;
+}
+header{
+    background-color: #383833;
+    min-width: 600px;
+    height: 100px;
+}
+header div{
+    background-image: url('logo.png');
+    background-size: 160px 80px;
+    width: 160px;
+    height: 80px;
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+header ul{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 60px;
+    right: 300px;
+}
+header ul li{
+    display: block;
+    padding: 40px;
+}
+header ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    color: orange;
+}
+nav{
+    position: absolute;
+    left: 150px;
+    top:  300px;
+    color: white;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.t_first{
+    font-size: 70px;
+}
+.two{
+    font-size: 25px;
+}
+button{
+    border: 1px solid rgba(255, 166, 0, 0);
+    font-size: 28px;
+    border-radius: 10px;
+    width: 300px;
+    height: 75px;
+    background-color: orange;
+    color: white;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgb(85, 85, 197);
+    color: white;
+}
+header div{
+    background-image: url('logo.png');
+    background-size: 80px 80px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
+header ul{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 89%;
+    right: 10%;
+}
+header ul li{
+    display: block;
+    padding: 40px;
+}
+header ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    color: orange;
+}
