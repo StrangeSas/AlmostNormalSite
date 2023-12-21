@@ -14,7 +14,7 @@ div{
     justify-content: left;
 }
 body{
-    background-image: url('background.png');
+    background-color: #383833;
     background-size: 1600px;
     background-position: center;
 }
